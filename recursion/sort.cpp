@@ -24,7 +24,7 @@ void sort_recur(vector<int>&v)
 
 int main()
 {
-    vector<int>v={5,1,3,4,81,4,3,0};
+    vector<int>v={5,1,1,3,4,81,4,3,0};
     sort_recur(v);
     for(auto i:v)
     {

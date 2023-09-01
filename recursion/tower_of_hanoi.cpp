@@ -2,14 +2,12 @@
 using namespace std;
 void solve(int s,int d,int m, int n)
 {
-    if(n == 1)
+    if(n == 0)
     {
-        cout << " Disk" << n << " moved from " << s << " "
-             << " to " << d << endl;
         return;
     }
     solve(s,m,d,n-1);
-    cout << " Disk" << n<< " moved from " << s << " "<< " to " << d << endl;
+    cout<<"Disk "<<n<<" moved from "<<s<<" to "<<d<<endl;
     solve(m,d,s,n-1);
     return;
 }

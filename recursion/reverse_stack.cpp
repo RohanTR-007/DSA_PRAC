@@ -26,6 +26,7 @@ void rev_stack(stack<int>&s)
     insert(s,tmp);
 }
 
+
 int main()
 {
     stack<int> s;
